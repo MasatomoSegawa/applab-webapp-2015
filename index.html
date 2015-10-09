@@ -1,18 +1,27 @@
 <!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="ja">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset="utf-8">
 		<link href="google.css" rel="stylesheet" type="text/css">
 		<title lang="ja">Google</title>
 	</head>
 	<body>
-		<form action="cgi-bin/google.cgi" method="post">
+	<div class="gallery">
+		<img src="googleLogo.jpg" alt="test">
+	</div>
+
+
+	<div class="gallery">
+		<form action="cgi-bin/google.cgi" method="post">			
 			<p>
-			名前：<input type="text" name="name" size="40">
+			<input type="text" name="name" size="40">
 			</p>
-			<input type="submit" value="Google 検索"><input type="lucky" value="I'm feeling luckey">
+
+			<p>
+			<input type="submit" value="Google 検索">
+			<input type="submit" value="I'm feeling luckey">
 			</p>
 		</form>
-
+	</div>
 	</body>
 </html>
